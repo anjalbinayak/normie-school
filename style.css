@@ -1,0 +1,19 @@
+ul.nav {
+    list-style-type: none;
+}
+ul.nav li{
+    display: inline;
+    padding:5px;
+}
+.page-header{
+    text-align: center;
+}
+.content{
+    padding:5px;
+    width:80%;
+    margin:0 auto;
+}
+p{
+    text-align: justify;
+}
+
