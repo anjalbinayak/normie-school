@@ -1,3 +1,4 @@
+
 ul.nav {
     list-style-type: none;
 }
@@ -15,5 +16,9 @@ ul.nav li{
 }
 p{
     text-align: justify;
+}
+.footer{
+	width:100%;
+	text-align: center;
 }
 
