@@ -22,3 +22,12 @@ p{
 	text-align: center;
 }
 
+.next_article{
+    float:right;
+}
+.previous_article{
+    float:left;
+}
+.feature_image{
+    max-width:600px;
+}
