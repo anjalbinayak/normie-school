@@ -31,3 +31,13 @@ p{
 .feature_image{
     max-width:600px;
 }
+
+form input{
+    margin:5px;
+    padding:5px;
+}
+form textarea{
+    padding: 10px;
+    resize:none;
+}
+
