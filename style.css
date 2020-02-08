@@ -76,3 +76,17 @@ form input::placeholder{
     color:#330000;
 }
 
+.image-container{
+   width:30%;
+   float:left;
+   margin-bottom:20px;
+}
+.image-container p{
+    text-align: center;
+    color:#0d1021;
+}
+.image-container img{
+    width:70%;
+
+}
+
