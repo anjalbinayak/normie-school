@@ -5,6 +5,10 @@ body{
 a{
     color:#30d0d8;
 }
+a.active{
+    color:black;
+    text-decoration: none;
+}
 button{
     background:#aba3a3;
     padding:05px;
