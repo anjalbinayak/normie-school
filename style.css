@@ -1,3 +1,15 @@
+body{
+    background: #656161;
+}
+a{
+    color:#30d0d8;
+}
+button{
+    background:#aba3a3;
+    padding:05px;
+    border-radius:10px;
+}
+
 
 ul.nav {
     list-style-type: none;
@@ -35,9 +47,22 @@ p{
 form input{
     margin:5px;
     padding:5px;
+    background:#4c4c4c;
+    border-radius:5px;
 }
 form textarea{
     padding: 10px;
     resize:none;
+    background:#4c4c4c;
+    border-radius:5px;
+}
+
+form textarea::placeholder{
+    color:white;
+}
+form input::placeholder{
+    color:white;
+    font-size:11px;
+    letter-spacing: 1px;
 }
 
