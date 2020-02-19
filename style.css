@@ -1,13 +1,25 @@
 body{
-    background: #656161;
-    color:#330000;
+   
+   margin:0;
+   padding:0;
 }
 a{
     color:#30d0d8;
-}
-a.active{
-    color:black;
     text-decoration: none;
+}
+
+.header{
+    position: sticky;
+    padding:20px;
+    top:0;
+    left:0;
+    background:#eaeaea;
+    box-shadow: 2px 3px 5px rgba(0,0,0,.7);
+}
+ul.nav li.active{
+   box-shadow: none;
+   padding:15px;
+    
 }
 button{
     background:#aba3a3;
@@ -18,10 +30,23 @@ button{
 
 ul.nav {
     list-style-type: none;
+
 }
 ul.nav li{
     display: inline;
-    padding:5px;
+    padding:10px;
+    margin:5px;
+    background:black;
+    box-shadow:8px 9px 10px rgba(0,0,0,1);
+    transition:0.5s all;
+}
+
+ul.nav li:hover{
+    box-shadow:none;
+}
+ul.nav li a{
+    color:white;
+    padding:05px;
 }
 .page-header{
     text-align: center;
@@ -30,6 +55,18 @@ ul.nav li{
     padding:5px;
     width:80%;
     margin:0 auto;
+
+}
+.card{
+    background:#ead0d04f;
+    border-radius: 5px;
+    box-shadow: 5px 6px 8px rgba(0,0,0,0.4);
+    transition: 0.4s;
+    margin-bottom:10px;
+
+}
+.card:hover{
+    box-shadow: none;
 }
 p{
     text-align: justify;
@@ -42,18 +79,42 @@ p{
 
 .next_article{
     float:right;
+    padding:10px;
+    margin:5px;
+    background: green;
+    color:white;
+    box-shadow: 3px 4px 6px rgba(0,0,0,.8);
+    transition:.8s;
+    width:10%;
 }
 .previous_article{
     float:left;
+    padding:10px;
+    margin:5px;
+    background: red;
+    color:white;
+    box-shadow: 3px 4px 6px rgba(0,0,0,.8);
+    transition:.8s;
+     width:10%;
 }
+
+.previous_article:hover{
+    box-shadow: none;
+}
+
+.next_article:hover{
+    box-shadow: none;
+}
+
+
 .feature_image{
-    max-width:600px;
+    max-width:100%;
 }
 
 form input{
     margin:5px;
     padding:5px;
-    background:#4c4c4c;
+    
     border-radius:5px;
 }
 form textarea{
@@ -64,10 +125,10 @@ form textarea{
 }
 
 form textarea::placeholder{
-    color:white;
+    color:black;
 }
 form input::placeholder{
-    color:white;
+    color:black;
     font-size:11px;
     letter-spacing: 1px;
 }
@@ -80,6 +141,7 @@ form input::placeholder{
    width:30%;
    float:left;
    margin-bottom:20px;
+   margin:5px;
 }
 .image-container p{
     text-align: center;
