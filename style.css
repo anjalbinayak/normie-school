@@ -114,14 +114,21 @@ p{
 form input{
     margin:5px;
     padding:5px;
-    
+    box-shadow:1px 2px 5px  rgba(0,0,0,.7);
     border-radius:5px;
+    transition: .4s;
 }
 form textarea{
     padding: 10px;
     resize:none;
-    background:#4c4c4c;
     border-radius:5px;
+    box-shadow:1px 2px 5px  rgba(0,0,0,.7);
+    transition: .4s;
+
+}
+
+textarea:focus, input:focus{
+    box-shadow: none;
 }
 
 form textarea::placeholder{
